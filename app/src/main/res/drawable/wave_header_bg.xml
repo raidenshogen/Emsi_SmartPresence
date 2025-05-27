@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="360dp"
+    android:height="800dp"
+    android:viewportWidth="360"
+    android:viewportHeight="800">
+    
+    <!-- Full background color -->
+    <path
+        android:fillColor="@color/colorPrimaryDark"
+        android:pathData="M0,0 L360,0 L360,800 L0,800 Z" />
+        
+    <!-- Top wave pattern -->
+    <path
+        android:fillColor="@color/colorPrimary"
+        android:pathData="M0,0 L360,0 L360,200 Q320,230 280,210 Q240,190 200,210 Q160,230 120,210 Q80,190 40,210 Q0,230 0,200 Z" />
+    
+    <!-- Subtle middle wave overlay -->
+    <path
+        android:fillColor="#15FFFFFF"
+        android:pathData="M0,250 Q60,230 120,250 Q180,270 240,250 Q300,230 360,250 L360,350 Q300,370 240,350 Q180,330 120,350 Q60,370 0,350 Z" />
+    
+    <!-- Bottom subtle wave -->
+    <path
+        android:fillColor="#10FFFFFF"
+        android:pathData="M0,500 Q60,480 120,500 Q180,520 240,500 Q300,480 360,500 L360,600 Q300,580 240,600 Q180,620 120,600 Q60,580 0,600 Z" />
+    
+    <!-- Small decorative elements -->
+    <path
+        android:fillColor="#08FFFFFF"
+        android:pathData="M20,300 A10,10 0 1,1 40,300 A10,10 0 1,1 20,300" />
+    <path
+        android:fillColor="#08FFFFFF"
+        android:pathData="M320,400 A8,8 0 1,1 336,400 A8,8 0 1,1 320,400" />
+    <path
+        android:fillColor="#08FFFFFF"
+        android:pathData="M100,650 A12,12 0 1,1 124,650 A12,12 0 1,1 100,650" />
+    <path
+        android:fillColor="#08FFFFFF"
+        android:pathData="M250,700 A6,6 0 1,1 262,700 A6,6 0 1,1 250,700" />
+</vector>

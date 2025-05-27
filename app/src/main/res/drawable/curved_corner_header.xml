@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="360dp"
+    android:height="480dp"
+    android:viewportWidth="360"
+    android:viewportHeight="480">
+    
+    <!-- Main wave shape -->
+    <path
+        android:fillColor="@color/colorPrimary"
+        android:pathData="M0,0 L360,0 L360,320 C300,370 240,350 180,400 C120,450 60,420 0,440 L0,0 Z" />
+    
+    <!-- Lighter wave accent -->
+    <path
+        android:fillColor="@color/colorPrimaryDark"
+        android:pathData="M0,0 L360,0 L360,280 C300,330 240,310 180,360 C120,410 60,380 0,400 L0,0 Z" />
+</vector>
