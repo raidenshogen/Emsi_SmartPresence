@@ -1,2 +1,2 @@
 # Emsi_SmartPresence
-voir la branch master
+check the branch master
